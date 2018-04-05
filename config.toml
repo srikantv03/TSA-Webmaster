@@ -1,0 +1,8 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Apex Friendship TSA"
+theme = "hugo-paper"
+[taxonomies]
+	tag = "tags"
+	category = "categories"
+	mood = "moods"
