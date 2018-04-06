@@ -1,8 +1,7 @@
 ---
-title: "Test Page 2"
+title: "Our Chapter and Ability"
 date: 2018-04-05T16:56:59-04:00
 draft: false
-author: "Srikant"
 menu: "main"
 ---
 
