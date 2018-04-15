@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Apex Friendship TSA</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Apex Friendship TSA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Artificial Intelligence</title>
+      <link>http://example.org/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/contact/</guid>
+      <description>This is an example of a custom shortcode that you can put right into your content. You will need to add a form action to the the shortcode to make it work. Check out Formspree for a simple, free form service.
+Your NameEmail AddressAn email address is required.Message</description>
+    </item>
+    
+    <item>
+      <title>CTE and Tech Programs</title>
+      <link>http://example.org/post/cte_tech/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/post/cte_tech/</guid>
+      <description>From our CTE page: Career &amp;amp; Technical Education
+&amp;ldquo;Today&amp;rsquo;s economy demands a better educated workforce more than ever before. Career and Technical Education (CTE) is an elective program and an integral part of Apex Friendship High School. CTE provides students with the academic rigor, technical knowledge, employability skills, and real-world experiences needed to pursue postsecondary training and higher education for high-skill, high-demand, and highly successful careers.
+CTE brings education and business together so that students gain real world understanding of their skills and are equipped for career success.</description>
+    </item>
+    
+    <item>
+      <title>Our Chapter</title>
+      <link>http://example.org/post/chapter-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/post/chapter-1/</guid>
+      <description>The TSA North Carolina State competition brings in plenty of talented young and bright, technologically minded students to convene in a highly competitive and educational competition. The TSA corporation holds these competitions, not only in NC, but all across the nation, aiding in the scouting procedure for colleges and employers.
+  TSA Logo   Many people have enjoyed the TSA competitions over the years, and as these become more and more known, there is no doubt that there will be a boatload of talent showcased.</description>
+    </item>
+    
+  </channel>
+</rss>
