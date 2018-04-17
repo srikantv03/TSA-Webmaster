@@ -104,13 +104,13 @@ img::-moz-selection {
 #mainNav {
   position: absolute;
   border-bottom: 1px solid #8dbae8;
-  background-color: white;
+  background-color: #3e9ea3;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #mainNav .navbar-brand {
   font-weight: 800;
-  color: #14141f;
+  color: #afd9db;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 20px;
 }
@@ -120,7 +120,7 @@ img::-moz-selection {
   font-weight: 800;
   padding: 13px;
   text-transform: uppercase;
-  color: #14141f;
+  color: #1f4a4c;
   font-family: 'Alegreya Sans SC', sans-serif;
 }
 
@@ -128,7 +128,7 @@ img::-moz-selection {
   font-size: 12px;
   font-weight: 800;
   letter-spacing: 1px;
-  color: #14141f;
+  color: #1f4a4c;
   text-transform: uppercase;
   font-family: 'Alegreya Sans SC', sans-serif;
 }
@@ -150,7 +150,7 @@ img::-moz-selection {
     color: #fff;
   }
   #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
-    color: rgba(255, 255, 255, 0.8);
+    color: #1f4a4c;
   }
 }
 
@@ -218,7 +218,7 @@ header.masthead .overlay {
   height: 100%;
   width: 100%;
   background-color: #212529;
-  opacity: 0.5;
+  opacity: 0.32;
 }
 
 header.masthead .page-heading,
@@ -419,6 +419,7 @@ footer .copyright {
   font-size: 14px;
   margin-bottom: 0;
   text-align: center;
+  font-family: arial;
 }
 
 .btn {
