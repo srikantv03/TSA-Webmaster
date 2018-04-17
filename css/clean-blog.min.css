@@ -139,7 +139,7 @@ img::-moz-selection {
     color: #fff;
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: rgba(50, 255, 255, 0.8);
+    color: rgba(50, 255, 25, 0.8);
   }
   #mainNav .navbar-nav > li.nav-item > a {
     padding: 10px 20px;
