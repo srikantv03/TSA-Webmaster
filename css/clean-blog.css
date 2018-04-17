@@ -1,16 +1,18 @@
 body {
   font-size: 20px;
   color: #212529;
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Trebuchet MS', 'Helveticca', sans-serif;
 }
 
 p {
   line-height: 1.5;
   margin: 30px 0;
+  font-family: 'Trebuchet MS', 'Helveticca', sans-serif;
 }
 
 p a {
   text-decoration: underline;
+  font-family: 'Trebuchet MS', 'Helveticca', sans-serif;
 }
 div.scrollmenu {
     background-color: #333;
@@ -104,6 +106,7 @@ img::-moz-selection {
 #mainNav .navbar-brand {
   font-weight: 800;
   color: #343a40;
+  font-family: 'Trebuchet MS', 'Helveticca', sans-serif;
 }
 
 #mainNav .navbar-toggler {
@@ -112,6 +115,7 @@ img::-moz-selection {
   padding: 13px;
   text-transform: uppercase;
   color: #343a40;
+  font-family: 'Trebuchet MS', 'Helveticca', sans-serif;
 }
 
 #mainNav .navbar-nav > li.nav-item > a {
@@ -119,6 +123,7 @@ img::-moz-selection {
   font-weight: 800;
   letter-spacing: 1px;
   text-transform: uppercase;
+  font-family: 'Trebuchet MS', 'Helveticca', sans-serif;
 }
 
 @media only screen and (min-width: 992px) {
