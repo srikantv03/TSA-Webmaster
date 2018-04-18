@@ -38,12 +38,20 @@ h5,
 h6 {
   font-weight: 800;
   font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
-  color: black;
+  color: #9fc2f9;
 }
 h2{
   font-weight: 800;
   font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+  color: #9fc2f9;
+}
+h3{
+  font-weight: 800;
+  font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
   color: black;
+}
+
+}
 }
 
 a {
