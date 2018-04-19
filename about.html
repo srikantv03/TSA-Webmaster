@@ -57,7 +57,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
-            <div class="site-heading fadeIn animated">
+            <div class="site-heading fadeIn wow">
               <h1>About</h1>
               <h2 class="subheading">Brief description of how we made this project</h2>
             </div>
@@ -65,12 +65,15 @@
         </div>
       </div>
     </header>
-
+<br>
+<br>
+<br>
+<br>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
            <br>
-           <div class="zoomInDown animated" style="animation-delay: .6s;">
+           <div class="zoomInDown wow">
 <center>This page was made using a bootstrap framework from <a href="https://getbootstrap.com">bootstrap.</a>
 <br>
 <hr>
@@ -89,7 +92,7 @@ All bootstrap components and stylings are stored in bootstrap created content
 <center><img src="img/bootstrap.png" width="130px"></center>
 <br>
 </div>
-<div class="rollIn animated" style="animation-delay: 2.6s;">
+<div class="rollIn wow" >
 <center><h3>COMMUNITY SERVICE/VOLUNTEER SERVICE:</h3><center>
 
 <br>
@@ -101,14 +104,18 @@ Our TSA team helped volunteer for various different events and organizations, as
     </center>
     <br>
     <br>
+    <br>
     </div>
     </div>
     <div>
       
-      </div>
-      <div>
-        <img src="img/mullinsderek.jpg">Secondary TSA Advisor (Mr. Mullins)</img>
-        <img src="img/hollerwilliam.jpg">Primary TSA Advisor (Mr. Mullins)</img>
+      <div class="wow zoomIn" style="padding-top: 150px;">
+        <img src="img/mullinsderek.jpg" style="float:left; padding-left: 50px;" width="200px"><div style="float:left; padding-left: 10px; font-family: arial; font-size: 15px">Secondary TSA Advisor (Mr. Mullins)</div></img>
+        <img src="img/hollerwill.jpg" style="float:right; padding-right: 50px;" width="200px"><div style="float:right; padding-right: 10px; font-family: arial; font-size: 15px">Primary TSA Advisor (Mr. Holler)</div></img>
+        <br>
+        <br>
+        <br>
+        <br>
     <center><a class="twitter-timeline" href="https://twitter.com/apexfriendship?ref_src=twsrc%5Etfw" height="600px" width="350px">Tweets by apexfriendship</a> </center><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
       </div>
@@ -128,7 +135,10 @@ Our TSA team helped volunteer for various different events and organizations, as
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+ <script src="js/wow.js"></script>
+              <script>
+              new WOW().init();
+              </script>
   </body>
 
 </html>
