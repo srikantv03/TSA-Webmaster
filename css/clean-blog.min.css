@@ -195,7 +195,7 @@ img::-moz-selection {
     color: #0085A1;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a {
-    color: #212529;
+    color: #212529;z
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus, #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
     color: #0085A1;
@@ -209,7 +209,10 @@ img::-moz-selection {
     transform: translate3d(0, 100%, 0);
   }
 }
-
+.bckgrnd{
+  background-color:white;
+  padding:50px;
+}
 header.masthead {
   margin-bottom: 50px;
   background: no-repeat center center;
