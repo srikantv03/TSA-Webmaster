@@ -21,6 +21,7 @@
     <!-- Custom styles for this template -->
     <link href="css/clean-blog.min.css" rel="stylesheet">
 <link href="css/animate.css" rel="stylesheet">
+<link href="css/du3s.css" rel="stylesheet">
 <style>
 table {
     font-family: arial, sans-serif;
@@ -35,7 +36,16 @@ td, th {
 
 tr:nth-child(even) {
     background-color: #f7c0c0;
+    .dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
 }
+
+/* Dropdown button on hover & focus */
 </style>
   </head>
 
@@ -125,7 +135,7 @@ Our TSA team helped volunteer for various different events and organizations, as
     </div>
     <div>
       
-      <div class="wow zoomIn" style="padding-top: 150px; padding-bottom: 50px;">
+      <div class="wow zoomIn" style="padding-top: 150px;">
         <img src="img/mullinsderek.jpg" style="float:left; padding-left: 50px;" width="200px"><div style="float:left; padding-left: 10px; font-family: arial; font-size: 15px">Secondary TSA Advisor (Mr. Mullins)</div></img>
         <img src="img/hollerwill.jpg" style="float:right; padding-right: 50px;" width="200px"><div style="float:right; padding-right: 10px; font-family: arial; font-size: 15px">Primary TSA Advisor (Mr. Holler)</div></img>
         <br>
@@ -135,8 +145,6 @@ Our TSA team helped volunteer for various different events and organizations, as
     <center><a class="twitter-timeline" href="https://twitter.com/apexfriendship?ref_src=twsrc%5Etfw" height="600px" width="350px" >Tweets by apexfriendship</a> </center><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
       </div>
-      <br>
-      <br>
 
 
 
@@ -147,6 +155,7 @@ Our TSA team helped volunteer for various different events and organizations, as
 
 
 
+<a name='table'>
 <table>
   <tr>
     <th><center>Team Members</center></th>
@@ -168,13 +177,8 @@ Our TSA team helped volunteer for various different events and organizations, as
     <td>Co-File Manager</td>
     <td>Software Dev/Coding</td>
   </tr>
-  <tr>
-    <td>Jason Long</td>
-    <td>Secondary Team Leader</td>
-    <td>Software Dev</td>
-  </tr>
 </table>
-
+</a>
 
 
 
@@ -190,11 +194,24 @@ Our TSA team helped volunteer for various different events and organizations, as
     <br>
     </div>
 
-    <center><h3>SOURCES:</h3></center>
-    <br><center><a href="https://futureoflife.org/background/benefits-risks-of-artificial-intelligence/">https://futureoflife.org/background/benefits-risks-of-artificial-intelligence/</a><br>
-    <a href="http://robohub.org/artificial-intelligence-understanding-how-machines-learn/">http://robohub.org/artificial-intelligence-understanding-how-machines-learn/</a><br>
-    <a href="http://www.thehindu.com/sci-tech/technology/computing-at-the-speed-of-light/article18080358.ece">http://www.thehindu.com/sci-tech/technology/computing-at-the-speed-of-light/article18080358.ece</a><br></center>
-    </div>
+
+
+
+
+
+
+
+<div class="dropdown" style="float:center;">
+  <button onclick="myFunction()" class="dropbtn">Sources (Click Me)</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="https://futureoflife.org/background/benefits-risks-of-artificial-intelligence/">Future of Life (AI)</a>
+    <a href="http://robohub.org/artificial-intelligence-understanding-how-machines-learn/">Robohub (Machine Learning)</a>
+    <a href="http://www.thehindu.com/sci-tech/technology/computing-at-the-speed-of-light/article18080358.ece">The Hindu (Sci and Tech)</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+
       <footer>
             <p class="copyright text-muted">Copyright &copy; Apex Friendship TSA</p>
 
@@ -207,6 +224,28 @@ Our TSA team helped volunteer for various different events and organizations, as
               <script>
               new WOW().init();
               </script>
+              <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
   </body>
 
 </html>
